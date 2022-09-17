@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
 }
 
 body{
-    background-image: "images\backgroundLogin.jpg";
+    background-image: url( "../../images/backgroundLogin.jpg");
     background-size: cover;
 }
 
@@ -19,7 +21,7 @@ body{
 }
 
 header{
-    padding: 16px 0;
+    padding: 25px 0;
 }
 
 .logo{
@@ -37,17 +39,19 @@ header{
     font-weight: bold;
     margin-right: 15px;
 }
-
+#sair{
+    color: red;
+}
 textarea:focus, input:focus{
     outline: none;
 }
 
-#login-contaier{
+#login-container{
     background-color: white;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 30px;
+    padding: 50px 30px;
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
@@ -65,11 +69,13 @@ label, input{
 }
 
 label{
+    border: none;
     font-size: .8rem;
     font-weight: bold;
 }
 
 input{
+    border: none;
     border-bottom: 2px solid black;
     padding: 10px;
     margin-bottom: 20px;
@@ -79,7 +85,7 @@ input:focus{
     border-bottom: 2px solid blue;
 }
 
-#forgot-pass{
+#forgout-pass{
     text-align: right;
     display: block;
 }
